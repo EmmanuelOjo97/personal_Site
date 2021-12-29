@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
     <!-- <link rel="stylesheet" href="practice.css" /> -->
+    <link rel="stylesheet" href="/src/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -68,15 +69,21 @@
         </p>
       </div>
       <div class="headshot">
-        <img src="headshot.jpg" alt="" />
+        <img src="src/images/headshot.jpg" alt="" />
       </div>
     </section>
     <section class="projects" id="projects">
-      <h3 class="subtitle">Projects</h3>
+      <div class="projects-title">
+        <h3>Projects</h3>
+      </div>
       <div class="project-container">
         <div class="project-card">
           <div class="project-display">
-            <img src="productivityApp.png" alt="" class="project-image" />
+            <img
+              src="src/images/productivityApp.png"
+              alt=""
+              class="project-image"
+            />
           </div>
           <div>
             <h5>Productivity App</h5>
@@ -99,7 +106,7 @@
         </div> -->
         <div class="project-card">
           <div class="project-display">
-            <img src="covid_App.png" alt="" class="project-image" />
+            <img src="src//images/covid_App.png" alt="" class="project-image" />
           </div>
           <div>
             <h5>Covid Cases App</h5>
@@ -123,7 +130,7 @@
         </div> -->
         <div class="project-card">
           <div class="project-display">
-            <img src="jokeApp.png" alt="" class="project-image" />
+            <img src="src//images/jokeApp.png" alt="" class="project-image" />
           </div>
           <div>
             <h5>Joke teller App</h5>
@@ -142,11 +149,43 @@
         </div>
       </div>
     </section>
-    <footer class="contact">
-      <a href="https://github.com/Zabimaruu?tab=repositories">
-        <i class="fab fa-github"></i
-      ></a>
+    <section class="skills">
+      <div class="skills-card">
+        <img src="src//icons/html5_icon.png" alt="" />
+        <h5>HTML5</h5>
+      </div>
+      <div class="skills-card">
+        <img src="src//icons/icons8-css3-480.png" alt="" />
+        <h5>CSS</h5>
+      </div>
+      <div class="skills-card">
+        <img src="src//icons/icons8-javascript-480.png" alt="" />
+        <h5>Javascript ES6</h5>
+      </div>
+      <div class="skills-card">
+        <img src="src//icons/icons8-react-native-480.png" alt="" />
+        <h5>React</h5>
+      </div>
+      <div class="skills-card">
+        <img src="src//icons/icons8-node-js-480.png" alt="" />
+        <h5>Node + Express</h5>
+      </div>
+      <div class="skills-card">
+        <img src="src//icons/icons8-git-480.png" alt="" />
+        <h5>Git + Github</h5>
+      </div>
+    </section>
+    <footer>
+      <div class="contact-me">
+        <a href="https://github.com/Zabimaruu?tab=repositories">
+          <i class="fab fa-github footer-icon"></i
+        ></a>
+        <a href="https://uk.linkedin.com/in/emmanuel-ojo-332576187">
+          <i class="fab fa-linkedin footer-icon"></i
+        ></a>
+        <p>eojo1997@gmail.com</p>
+      </div>
     </footer>
-    <script src="app.js"></script>
+    <script src="/src/app.js"></script>
   </body>
 </html>
